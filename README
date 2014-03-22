@@ -1,15 +1,15 @@
-Torrage - Torrent Storage Cache
+Torrage - 将Torrent文件在因特网中缓存
 
-To obtain the latest version of Torrage, always check out http://github.com/torrage/Torrage
+原始版本地址： http://github.com/torrage/Torrage
+当前是中文版： https://github.com/kslr/Torrage
 
-Torrage is a torrent storage cache system, developed in PHP with the primary aim of serving torrent
-files on a large scale allowing trackers and index sites to spend less time and resources storing/maintaining torrents.
+Torrage 是一个Torrent网络缓存系统，使用PHP开发，让索引网站可以更轻松的存储/维护种子文件。
 
 
-Changelog
+更新日志
 
 v0.4
-- Rewritten major chunks of the codebase to clean up bugs and optimize functionality.
-- Use new version of TorrentEditor class which fixed a lot of issues from v0.3
-- Added cron support to clean up /sync/ files as not to create duplicate clutter
-- Added sync mirror support to push data to other known torrage websites
+- 清理了一部分错误并有一些功能优化。
+- TorrentEditor类更新到了新版本。
+- 增加了定时文件整理/同步，以此防止文件的混乱。
+- 增加了同步镜像，可以将数据推送到其他的Torrage网站。
